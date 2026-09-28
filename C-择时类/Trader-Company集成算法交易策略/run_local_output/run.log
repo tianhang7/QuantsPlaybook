@@ -1,0 +1,22 @@
+数据: 2957 天 x 6 指数 (2010-05-31 ~ 2022-07-29)
+
+===== 运行 BayesianGaussianMixture =====
+BayesianGaussianMixture: 耗时 20.0s | 策略累计 -14.19% | 基准累计 23.38% | 夏普 0.01 | 最大回撤 -48.08% | 命中率 51.68%
+
+===== 运行 GaussianMixture =====
+GaussianMixture: 耗时 21.5s | 策略累计 -12.90% | 基准累计 23.38% | 夏普 0.01 | 最大回撤 -41.34% | 命中率 51.09%
+
+===== 运行 Gaussian =====
+Gaussian: 耗时 13.3s | 策略累计 9.56% | 基准累计 23.38% | 夏普 0.13 | 最大回撤 -42.81% | 命中率 50.91%
+
+===== 绩效汇总 =====
+                   name  total_return  annual_return  annual_volatility  sharpe  max_drawdown  hit_rate  days_in_market  elapsed_sec
+              benchmark        0.2338         0.0187             0.2258  0.1955       -0.4670       NaN             NaN          NaN
+BayesianGaussianMixture       -0.1419        -0.0134             0.1729  0.0090       -0.4808    0.5168          0.5621      20.0000
+              benchmark        0.2338         0.0187             0.2258  0.1955       -0.4670       NaN             NaN          NaN
+        GaussianMixture       -0.1290        -0.0121             0.1702  0.0140       -0.4134    0.5109          0.5625      21.5000
+              benchmark        0.2338         0.0187             0.2258  0.1955       -0.4670       NaN             NaN          NaN
+               Gaussian        0.0956         0.0081             0.1696  0.1328       -0.4281    0.5091          0.5590      13.3000
+
+输出目录: C:\Users\wwtth\Desktop\QuantsPlaybook\C-择时类\Trader-Company集成算法交易策略\run_local_output
+图表: C:\Users\wwtth\Desktop\QuantsPlaybook\C-择时类\Trader-Company集成算法交易策略\run_local_output\cum_returns.png
